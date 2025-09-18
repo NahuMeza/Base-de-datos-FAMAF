@@ -25,5 +25,6 @@ SELECT country.Name, countrylanguage.Language FROM country INNER JOIN countrylan
 (countrylanguage.Language = 'English' OR countrylanguage.Language = 'French') 
 AND countrylanguage.CountryCode = country.Code AND countrylanguage.IsOfficial = 'T';
 
-SELECT country.Name FROM country INNER JOIN countrylanguage ON countrylanguage.Language = 'English' AND countrylanguage.Language != 'Spanish' AND countrylanguage.CountryCode = country.Code;
+SELECT country.Name FROM country INNER JOIN countrylanguage ON countrylanguage.Language = 'English'
+AND countrylanguage.Language != 'Spanish' AND countrylanguage.CountryCode = country.Code;
 
