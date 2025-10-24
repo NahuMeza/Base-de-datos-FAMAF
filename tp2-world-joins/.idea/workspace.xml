@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c6c67bb5-0983-4fe8-bfe4-c2200e00e079" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Parcial  1 -2023/olympics-data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parcial  1 -2023/olympics-schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parcial  1 -2023/solutions.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parcial 1 - 2024/01-airbnb-like-schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parcial 1 - 2024/02-airbnb-like-data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parcial 1 - 2024/Parcial 1 2024-10-04.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parcial 1 - 2024/Solucion_alternativa.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parcial 1 - 2024/queries.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parcial 1 - 2025/Northwind.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parcial 1 - 2025/Parcial 1 - SQL.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parcial 1 - 2025/soluciones.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recu Parcial 1 - 2024/soluciones.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp1-world-db/00-world-schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp1-world-db/01-world-data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp1-world-db/02-world-continent.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp1-world-db/03-world-contintent-data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp1-world-db/04-world-queries.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp1-world-db/test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tp2-world-joins.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/world-joins-queries.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp3-world-subqueries/queries.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp4-sakila/Bases de Datos - Práctico 5_ General.docx.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp4-sakila/queries.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp4-sakila/sakila/diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp4-sakila/sakila/sakila-data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp4-sakila/sakila/sakila-schema.sql" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="32SorqAUQfuf8qZjq7qvJ5M6Jwe" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "database.data.extractors.current.export.id": "JSON-Groovy.json.groovy",
+    "database.data.extractors.current.id": "JSON-Groovy.json.groovy",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/nahutcami/Documentos/BD-FAMAF",
+    "settings.editor.selected.configurable": "database.query.execution"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql",
+      "mongo",
+      "mysql"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
+      "MySQL"
+    ]
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6c67bb5-0983-4fe8-bfe4-c2200e00e079" name="Changes" comment="" />
+      <created>1757423537340</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757423537340</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
