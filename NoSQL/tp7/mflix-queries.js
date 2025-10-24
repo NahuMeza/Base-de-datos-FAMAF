@@ -65,3 +65,50 @@ db.movies.find(
     {genres:{$all:["Drama", "Action"]}, countries:{$size:1}, $expr: { $or:[{ "imdb.rating":{$gte:9}} , {runtime:{$gte:3}}]}},
     {title:1,countries:1,genres:1,released:1,"imdb.votes":1}
 )
+
+// Listar el id del teatro (theaterId), estado (“location.address.state”), ciudad (“location.address.city”),
+// y coordenadas (“location.geo.coordinates”) de los teatros que se encuentran en algunos de los estados "CA", "NY", "TX"
+// y el nombre de la ciudades comienza con una ‘F’. Listar ordenados por estado y ciudad.
+
+db.theaters.find(
+    {
+        "location.address.state":{$in:["CA","NY","TX"]},
+        "location.address.city": {$regex: "^F.*"},
+    },
+    {theaterId:1, "location.address.state":1, "location.address.city":1, "location.geo.coordinates":1}
+).sort({"location.address.state":1, "location.address.city":1})
+
+// Actualizar los valores de los campos texto (text) y fecha (date) del comentario cuyo id es ObjectId("5b72236520a3277c015b3b73")
+// a "mi mejor comentario" y fecha actual respectivamente.
+
+db.comments.updateOne(
+    {"_id":ObjectId("5b72236520a3277c015b3b73")},
+    {
+         $set: {
+             text: "mi mejor comentario",
+             date: new Date()
+        }
+    }
+)
+
+// Actualizar el valor de la contraseña del usuario cuyo email es joel.macdonel@fakegmail.com a "some password".
+// La misma consulta debe poder insertar un nuevo usuario en caso que el usuario no exista.
+// Ejecute la consulta dos veces. ¿Qué operación se realiza en cada caso?  (Hint: usar upserts).
+
+db.users.updateOne(
+    {email: "joel.macdonel@fakegmai.com"},
+    {
+        $set: {
+            password: "some password again"
+        }
+    },
+    {upsert: true}
+)
+
+// Remover todos los comentarios realizados por el usuario cuyo email es victor_patel@fakegmail.com durante el año 1980.
+
+db.comments.deleteMany(
+    {email: "victor_patel@fakegmail.com", $expr: {$eq: [{$year: "$date"}, 1981]} }
+)
+
+
