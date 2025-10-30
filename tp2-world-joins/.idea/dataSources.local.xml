@@ -2,14 +2,14 @@
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="DB-252.26830.46">
     <data-source name="@localhost" uuid="1319de1e-b0ef-4fbd-9b55-199580a7f5e8">
-      <database-info product="Mongo DB" version="5.0.31" jdbc-version="4.2" driver-name="MongoDB JDBC Driver" driver-version="1.20" dbms="MONGO" exact-version="5.0.31" exact-driver-version="1.20" />
+      <database-info product="Mongo DB" version="8.2.1" jdbc-version="4.2" driver-name="MongoDB JDBC Driver" driver-version="1.20" dbms="MONGO" exact-version="8.2.1" exact-driver-version="1.20" />
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
       <secret-storage>master_key</secret-storage>
       <schema-mapping>
         <introspection-scope>
           <node kind="schema">
             <name qname="@" />
-            <name qname="mflix" />
+            <name qname="university" />
           </node>
         </introspection-scope>
       </schema-mapping>
