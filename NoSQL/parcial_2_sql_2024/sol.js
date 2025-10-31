@@ -202,3 +202,45 @@ db.grades.updateMany(
         }
     ]
 )
+
+
+
+
+db.runCommand({
+    collMod: "grades",
+    validator: {
+        $jsonSchema:{
+            bsonType: "object",
+            required: ["class_id", "student_id"],
+            properties: {
+                class_id:{
+                    bsonType: "int",
+                    description: "class must be an int and is required"
+                    },
+                student_id:{
+                    bsonType: "int",
+                    description: "student must be an int and is required"
+                    },
+                letter:{
+                    enum: ["A", "P", "NA"],
+                    description: "bobo"
+                    },
+                scores:{
+                    bsonType: "array",
+                    items: {
+                        bsonType: "object",
+                        required: ["type", "score"]
+                        }
+                    }
+            }
+        }
+    },
+    validationLevel: "moderate",
+    validationAction: "error"
+})
+
+db.grades.insertOne({
+    student_id: 1000,
+    class_id: "hola",
+    scores: [{"type":"exam", "score":70}]
+})
