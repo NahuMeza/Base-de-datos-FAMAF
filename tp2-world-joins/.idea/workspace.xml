@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6c67bb5-0983-4fe8-bfe4-c2200e00e079" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../NoSQL/parcial_2_sql_2024/sol.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NoSQL/parcial_2_sql_2024/sol.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/1319de1e-b0ef-4fbd-9b55-199580a7f5e8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1319de1e-b0ef-4fbd-9b55-199580a7f5e8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ddb191a6-f42a-4716-819b-612cf5429e8e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ddb191a6-f42a-4716-819b-612cf5429e8e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ddb191a6-f42a-4716-819b-612cf5429e8e/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ddb191a6-f42a-4716-819b-612cf5429e8e/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ddb191a6-f42a-4716-819b-612cf5429e8e/storage_v2/_src_/database/takehome.5o2b2Q/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ddb191a6-f42a-4716-819b-612cf5429e8e/storage_v2/_src_/database/takehome.5o2b2Q/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

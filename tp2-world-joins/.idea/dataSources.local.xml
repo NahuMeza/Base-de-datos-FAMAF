@@ -9,7 +9,7 @@
         <introspection-scope>
           <node kind="schema">
             <name qname="@" />
-            <name qname="university" />
+            <name qname="sample_airbnb" />
           </node>
         </introspection-scope>
       </schema-mapping>
